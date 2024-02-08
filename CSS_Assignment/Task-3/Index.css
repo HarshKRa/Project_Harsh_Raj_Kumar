@@ -1,0 +1,207 @@
+/* Basic reset and styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+   margin: 0px;
+   padding: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.88px;
+    text-decoration: none;
+    background-color: #131313;
+    color: #fff;
+}
+/* Header and Navigation styles */
+header {
+  background-color: #090909;
+  color: #fff;
+  height: 66px;
+  width: 100vw;
+}
+
+.left {
+  position: absolute;
+  width: 695px;
+  height: 26px;
+  margin-top: 20px;
+  margin-left: 54px;
+
+} 
+
+.logo {
+  position: absolute;
+  width: 115px;
+  height: 22px;
+  margin-top: 2px;
+  margin-left: 54px;
+}
+
+/* nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } */
+
+nav ul {
+    position: absolute;
+    list-style: none;
+    margin-left: 200px;
+    display: flex;
+    padding: 4px;
+    gap: 7px;
+  }
+  
+nav ul li {
+    margin-left: 2px;
+  }
+
+  nav ul li a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.88px;
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 2px;
+  } 
+  
+  nav ul li a:hover {
+    background-color: #646161;
+  }
+
+/* Logo and Items on the Left */
+.logo img {
+    max-height: 30px; 
+    margin-right: 20px;
+  }
+  
+/* Right-side Elements */
+.right {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 218px;
+    height: 32px;
+    margin-top: 17px;
+    margin-left: 1167px;
+
+  }
+
+.search-bar {
+    position: absolute;
+    padding: 0px 0px;
+  }
+
+.child{
+  padding: 0 50px;
+}
+
+.search-bar img{
+  /* position: absolute; */
+    width: 30px;
+    height: 30px;
+  }
+
+/* .search-bar input[type="text"],
+  .search-bar button {
+    padding: 8px;
+    background-color: #060606;
+  }
+   */
+
+.icons {
+    display: flex;
+    align-items: center;
+  }
+
+.icons img {
+    height: 35px; /*Set the height for the bell icon  */
+    margin: 0 10px;
+  } 
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropbtn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  section{
+    width: 100vw;
+    /* top: 104px;
+    left: 57px; */
+
+  }
+
+  .size{
+    position: relative;
+    margin-top: 70px;
+    height: 160px;
+    margin-left: 57px;
+  }
+
+  .cards{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .card{
+    width: 200px;
+    height: 121px;
+    display: flex;
+    padding: 0px, 47px, 0px, 48px;
+    background-color: #333;
+    margin-right: 5px;
+    color: #646161;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  section h2{
+    display: inline-block;
+    font-weight: 500;
+    size: 22px;
+    line-height: 28.09px;
+  }
+
+  .componentRetoro{
+    margin-bottom: 100px;
+  }

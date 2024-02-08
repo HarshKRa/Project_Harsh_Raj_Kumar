@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netflix Movie Card</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #141414;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .card {
+        width: 300px;
+        background-color: #000;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .card-content {
+        padding: 20px;
+        color: #fff;
+    }
+    h2 {
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+        <img src="movie-poster.jpg" alt="Movie Poster">
+        <div class="card-content">
+            <h2>Movie Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat orci eu ipsum consectetur, ac varius lorem ultricies. Nullam rhoncus lorem sed sapien dictum dictum.</p>
+            <p>Director: John Doe</p>
+            <p>Genre: Action, Drama</p>
+            <p>Release Date: January 1, 2024</p>
+        </div>
+    </div>
+</body>
+</html>
