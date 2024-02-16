@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 2px solid rgb(21, 21, 20);
+    background-color: rgb(20, 20, 20);
+    
+}
+
+.cardImg{
+  position: relative;
+  padding: 2px;
+}
+
+
+.cardImg iframe{
+    width: 100%;
+    height: auto;
+}
+
+.cardDetails{
+    position: relative;
+}
+
+
+.cardButtons{
+
+    position: relative;
+    display: flex;
+    /* padding-top: 5px;
+    margin-left: 10px; */
+    justify-content: space-around;
+    /* justify-content: left; */
+}
+
+.cardButtons img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    cursor: pointer;
+    /* display: block; */
+}
+
+.cardButtons img:hover{
+    transform: scale(1.2);
+}
+
+.details{
+    margin-left: 15px;
+    font-size: medium;
+}
+
+.dialog {
+    display: none;
+    position: absolute;
+    top: -30px;
+    transform: translateX(-50%);
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.play-dialog{
+    left: 16.666666%;
+}
+
+.like-dialog{
+    left: 50%;
+}
+
+.dislike-dialog{
+    left: 60%;
+    transform: translateX(15%);
+}
+
+
+.details p{
+    font-size: 1.4rem;
+    margin: 0;
+    padding: .04rem;
+}
+
+.matchingandTime{
+    display: flex;
+}
+
+.matching{
+    color: green;
+}
+
+
